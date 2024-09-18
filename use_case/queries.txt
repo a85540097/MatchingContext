@@ -1,0 +1,118 @@
+
+Nb Contexts
+===========
+86
+
+Nb EMCs
+========
+40
+
+Individuals linked with: <emc:emc_id_e_25_d_20_o_13>
+===================================================
+http://dbpedia.org/resource/Adam_May_(footballer)
+http://dbpedia.org/resource/Marcus_Harness
+
+Adam and Marcus cosine, table 3 col 7
+===================================================
+0.61374575
+
+properties in epsilon of Adam May and Leon Davies
+===================================================
+http://dbpedia.org/property/goals
+http://dbpedia.org/property/wikiPageUsesTemplate
+http://dbpedia.org/ontology/wikiPageWikiLink
+http://dbpedia.org/ontology/team
+http://purl.org/dc/terms/subject
+http://dbpedia.org/property/years
+http://dbpedia.org/property/clubs
+http://dbpedia.org/property/currentclub
+
+properties in delta of Adam May and Sean Raggett
+===================================================
+http://www.w3.org/ns/prov#wasDerivedFrom
+http://dbpedia.org/property/clubs
+http://dbpedia.org/ontology/wikiPageLength
+http://dbpedia.org/property/goals
+http://dbpedia.org/ontology/wikiPageRevisionID
+http://purl.org/dc/terms/subject
+http://www.w3.org/2000/01/rdf-schema#label
+http://dbpedia.org/property/name
+http://dbpedia.org/ontology/careerStation
+http://dbpedia.org/property/youthyears
+http://www.w3.org/2002/07/owl#sameAs
+http://dbpedia.org/ontology/abstract
+http://dbpedia.org/ontology/team
+http://dbpedia.org/property/fullname
+http://xmlns.com/foaf/0.1/name
+http://dbpedia.org/ontology/number
+http://dbpedia.org/property/birthDate
+http://dbpedia.org/ontology/wikiPageID
+http://dbpedia.org/property/clubnumber
+http://dbpedia.org/property/currentclub
+http://dbpedia.org/property/caps
+http://www.w3.org/2000/01/rdf-schema#comment
+http://dbpedia.org/ontology/position
+http://dbpedia.org/ontology/birthDate
+http://dbpedia.org/property/wikiPageUsesTemplate
+http://dbpedia.org/ontology/Person/height
+http://dbpedia.org/ontology/birthPlace
+http://xmlns.com/foaf/0.1/isPrimaryTopicOf
+http://dbpedia.org/ontology/wikiPageWikiLink
+http://dbpedia.org/property/birthPlace
+http://dbpedia.org/property/youthclubs
+http://dbpedia.org/ontology/height
+http://dbpedia.org/property/years
+http://dbpedia.org/property/position
+
+Propertie http://dbpedia.org/property/currentclub is in epsilon for (Adam_May,Leon_Davies) and in delta for (Adam_May,Sean Ragget)
+
+Named Graph with cosine min 0.75
+=================================
+http://example.org/emc/g4
+
+Query EMC by properties
+Epsilon: team, goals, years, caps, clubs
+Delta: position
+========================================
+http://example.org/emc/emc_id_e_22_d_16_o_26
+http://example.org/emc/emc_id_e_17_d_4_o_20
+http://example.org/emc/emc_id_e_10_d_4_o_12
+http://example.org/emc/emc_id_e_10_d_4_o_14
+http://example.org/emc/emc_id_e_18_d_14_o_22
+http://example.org/emc/emc_id_e_15_d_0_o_33
+http://example.org/emc/emc_id_e_15_d_0_o_31
+http://example.org/emc/emc_id_e_15_d_0_o_17
+http://example.org/emc/emc_id_e_15_d_0_o_4
+
+Players in the previous emcs
+============================
+http://dbpedia.org/resource/Matthew_Casey_(footballer)
+http://dbpedia.org/resource/Kai_McKenzie-Lyle
+http://dbpedia.org/resource/Joe_Ironside
+http://dbpedia.org/resource/Luke_McGee
+http://dbpedia.org/resource/Sean_Raggett
+http://dbpedia.org/resource/Lloyd_Jones_(English_footballer)
+http://dbpedia.org/resource/Harry_Darling
+http://dbpedia.org/resource/Jack_Iredale
+http://dbpedia.org/resource/Bradley_Tarbuck
+
+Query EMC by properties
+Epsilon: team, goals, years, caps, clubs, position
+==================================================
+http://example.org/emc/emc_id_e_12_d_11_o_12
+http://example.org/emc/emc_id_e_1_d_1_o_1
+http://example.org/emc/emc_id_e_23_d_17_o_27
+http://example.org/emc/emc_id_e_25_d_20_o_13
+http://example.org/emc/emc_id_e_22_d_18_o_28
+http://example.org/emc/emc_id_e_22_d_16_o_26
+http://example.org/emc/emc_id_e_27_d_3_o_14
+
+Players in the previous emcs
+============================
+http://dbpedia.org/resource/Ben_Worman
+http://dbpedia.org/resource/Louis_Thompson
+http://dbpedia.org/resource/Marcus_Harness
+http://dbpedia.org/resource/Paul_Digby
+http://dbpedia.org/resource/Harry_Jewitt-White
+http://dbpedia.org/resource/Christian_Oxlade-Chamberlain
+http://dbpedia.org/resource/Bradley_Tarbuck

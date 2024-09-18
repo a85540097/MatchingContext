@@ -1,0 +1,10 @@
+# Use Case
+## Files and Dir
+- Adam\_May\_footballer\_\_xaa: cosine similarities values of Adam\_Player v.s. other entities
+- adam\_table3.py: generates col 1-6 of table 3
+- table3\_col\_1\_6.txt: col 1-6 of table 3
+- triples: triple of entities used to compute EMCs
+- adam\_may\_rdf\_step.py: generates quadstore accroding EMC vocabulary
+- out2.nq: the quadstore
+- queries.py: example of queries on the quadstore
+- queries.txt: results of queries 

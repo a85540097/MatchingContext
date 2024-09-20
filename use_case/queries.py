@@ -2,8 +2,35 @@ from rdflib import Graph, Literal, Namespace, URIRef, RDF, RDFS, XSD, Conjunctiv
 from urllib.parse import unquote
 
 g = ConjunctiveGraph()
-#g.parse("out2.nq",format='nquads')
-g.parse("out",format='nquads')
+g.parse("out2.nq",format='nquads')
+
+
+# Table 3
+query="""
+PREFIX emc: <http://example.org/emc/>
+SELECT  ?emc ?size ?sized ?sizeo ?player2 ?cosine
+WHERE{
+    ?emc a emc:EMC ;
+         emc:epsilon ?e ;
+         emc:delta ?d ;
+         emc:omega ?o .
+    ?player1 ?emc ?player2 .
+    ?player2 emc:hasCosine ?cosine .
+    ?e emc:size ?size .
+    ?d emc:size ?sized .
+    ?o emc:size ?sizeo .
+}
+ORDER BY DESC (?size) (?player2)
+"""
+results = g.query(query)
+print()
+print("Table 3")
+print("===========")
+for row in results:
+    print(str(row.emc) + " " + str(row.size) + " " + str(row.sized) + " " + str(row.sizeo) +" " + str(unquote(row.player2)) + " " +str(row.cosine))
+
+
+
 
 # How many context ?
 query1= """

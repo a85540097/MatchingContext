@@ -22,3 +22,4 @@ This is the code for Entity Matching Contexts
 - nquad graph for Adam May: use\_case/out.nq
 - sparql query result (table 3): use\_case/adam\_query.res
 - queries example: use\_case/queries.py
+- heuristic to reduce EMCs computation: use\_case/heuristic 

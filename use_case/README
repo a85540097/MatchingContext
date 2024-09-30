@@ -6,3 +6,4 @@
 - out2.nq: the quadstore
 - queries.py: example of queries on the quadstore
 - queries.txt: results of queries in particular the table 3
+- heuristic to reduce EMCs computation: ./heuristic

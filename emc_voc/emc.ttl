@@ -1,0 +1,30 @@
+@prefix emc: <http://example.org/emc#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+emc:EMC a rdfs:Class ;
+    rdfs:label "EMC" ;
+    rdfs:comment "Represents an Entity Matching Context." .
+
+emc:Context a rdfs:Class ;
+    rdfs:label "Context" ;
+    rdfs:comment "Represents a context: epsilon for identity, delta for difference and omega for incompletness." .
+
+emc:epsilon a rdfs:Property ;
+    rdfs:label "epsilon" ;
+    rdfs:domain emc:EMC ;
+    rdfs:range emc:Context ;
+    rdfs:comment "The epsilon (identity) context of an EMC."
+ 
+emc:delta a rdfs:Property ;
+    rdfs:label "delta" ;
+    rdfs:domain emc:EMC ;
+    rdfs:range emc:Context ;
+    rdfs:comment "The delta (difference) context of an EMC."
+    
+ emc:omega a rdfs:Property ;
+    rdfs:label "omega" ;
+    rdfs:domain emc:EMC ;
+    rdfs:range emc:Context ;
+    rdfs:comment "The omega (incompletness) context of an EMC."

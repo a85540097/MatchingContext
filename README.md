@@ -10,7 +10,7 @@ This is the code for Entity Matching Contexts
 - Results are in files experiment/CLASSNAME/edo\_CLASSNAME\_index2.r.m
 - Results are indexed with ids, mapping ids-individuals are in DBorYAGO\_CLASSNAME\_ids
 
-# EMC vocabualry.
+# EMC vocabulary.
 - The vocabulary "emc-voc" describes EMCs.
 - Details are in ./emc\_voc/
 

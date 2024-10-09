@@ -15,16 +15,24 @@ emc:epsilon a rdfs:Property ;
     rdfs:label "epsilon" ;
     rdfs:domain emc:EMC ;
     rdfs:range emc:Context ;
-    rdfs:comment "The epsilon (identity) context of an EMC."
+    rdfs:comment "The epsilon (identity) context of an EMC." .
  
 emc:delta a rdfs:Property ;
     rdfs:label "delta" ;
     rdfs:domain emc:EMC ;
     rdfs:range emc:Context ;
-    rdfs:comment "The delta (difference) context of an EMC."
+    rdfs:comment "The delta (difference) context of an EMC." .
     
- emc:omega a rdfs:Property ;
+emc:omega a rdfs:Property ;
     rdfs:label "omega" ;
     rdfs:domain emc:EMC ;
     rdfs:range emc:Context ;
-    rdfs:comment "The omega (incompletness) context of an EMC."
+    rdfs:comment "The omega (incompletness) context of an EMC." .
+
+emc:includes a rdfs:Property ;
+    rdfs:label "includes" ;
+    rdfs:domain emc:Contex ;
+    rdfs:range rdfs:Property ;
+    rdfs:comment "A property included in the context." .
+
+
